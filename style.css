@@ -1,0 +1,105 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+.info .pic1{
+  height: 206px;
+  width: 200px;
+  margin-top:70px;
+  border:5px solid #56CCF2;
+}
+.info{
+  height: 760px;
+  background-image: url("banner.jpg");
+  text-align: center;
+}
+.info h1{
+  color: white;
+  text-transform: uppercase;
+  font-family:cursive;
+}
+.info p{
+  color: #56CCF2;
+  text-transform: uppercase;
+  font-family:monospace;
+  font-size: 25px
+}
+.icon1{
+  margin-right:10px;
+}
+.icon2{
+  margin-right:10px;
+}
+.icon3{
+  margin-right:10px;
+}
+.navbar{
+  background: #44c7f4;
+  padding: 0.5em 0;
+}
+.navbar p{
+  margin-left: 160px;
+  font-size:40px;
+  display: inline;
+  font-family:monospace;
+  text-transform: uppercase;
+}
+.navbar span{
+  color:red;
+}
+.navbar ul{
+  position:absolute;
+  top: 0px;
+  right: 330px;
+}
+.navbar li{
+  display: inline;
+  margin-left: 50px;
+  font-size: 20px;
+  color: white;
+}
+.navbar a{
+  text-decoration: none;
+  font-family: monospace;
+}
+li:hover{
+  color: black;
+}
+li:active{
+  color: blue;
+}
+li:visited{
+  color: blue;
+}
+.cont1{
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+.cont1 h1{
+  margin-top:100px;
+  color: #44c7f4;
+}
+.skills h1{
+  color:white;
+
+}
+.skills{
+  background-image: url("banner1.jpg");
+}
+.head h3{
+  border-left: 5px solid red;
+  font-family: cursive;
+}
+.Educ span{
+  font-size: 12px;
+  color: #44c7f4;
+  font-family: monospace;
+
+}
+.html5{
+  float: left;
+  margin-left: 15px;
+  color: white;
+  font-style:bold;
+}

@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h1{
+  font-family: cursive;
+}
+p{
+  color:#44c7f4;
+}
+table{
+  margin-left:500px
+}
+button:hover{
+  background-color: #44c7f4;
+  color: black;
+  font-family: monospace;
+
+}
+button{
+  color:white;
+  background-color: black;
+  width: 20%;
+  font-family: monospace;
+  font-size:15px;
+  position:absolute;
+  top: 230px;
+  right:310px;
+}
+.text{
+  width: 250px;
+}
+textarea{
+  position: absolute;
+  top:100px;
+  right: 310px;
+}
